@@ -4,9 +4,9 @@ python:
   - 2.7
 
 env:
-  - TOXENV=django18
-  - TOXENV=django110
-  - TOXENV=django111
+
+  - TOXENV=py27-django111
+  - TOXENV=py36-django111
 
 matrix:
   include:
